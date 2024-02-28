@@ -1,0 +1,178 @@
+<!--
+  Michael Uriel D. Cariaso
+  2022-12931
+  CMSC 100 UV-4L
+  Exercise 2
+-->
+
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <!--css reference for styling/designing-->
+    <link rel="stylesheet" type="text/css" href="cariaso-uv4l-ex02.css">
+
+
+  </head>
+
+  <body>
+
+    <!--top part of webpage-->
+    <div class="flex-container top" id="home">
+          <!--logo image-->
+          <div id="logo">
+            <img id="logo_image" src="images/apardium_logo.png"/>
+          </div> 
+          <!--portfolio header-->
+          <h1 id="my_name">MICHAEL URIEL D. CARIASO</h1>
+
+          <!--navigation buttons-->
+          <div id="navigation">
+            <a href="#feat">FEATURED PHOTO</a>
+            <a href="#prev">PREVIOUS PROJECTS</a>
+            <a href="#skill">SKILLS AND AUTOBIOGRAPHY</a>
+            <a href="#img">GO TO BOTTOM</a>
+          </div>
+          
+    </div>
+    
+
+    <!--middle part of webpage-->
+    <div class="flex-container middle" id="feat">
+        
+        <!--main container for featured personal photo-->
+        <div class="content content1">
+            <!--personal photo-->
+            <h1>FEATURED PHOTO</h1>
+            <div class="featured-item">
+              <img id="featured_photo" src="images/featured_photo.jpg"/>
+               <!--back  to top button-->
+               <a href="#home">BACK TO TOP</a>
+            </div>
+        </div>
+
+        <!--main container for previous projects-->
+        <div class="content content2" id="prev">
+          
+          <!--previous projects (images and videos)-->
+          <h1>PREVIOUS PROJECTS</h1>
+          <div id="previous_projects">
+
+            <!--python game container-->
+            <div class="featured-box box1">
+              <h1>PYTHON GAME</h1>
+              <!--image sample-->
+              <img id="python_photo" src="images/pythongame_img.png"/>
+              <!-- project description -->
+              <p class="desc">This Python project is a terminal game named "Type the Pattern" wherein a random pattern of characters is generated, and the player has to memorize it before it disappears then type the exact pattern afterwards. The game will continue for as long as the player does not fail to give the correct pattern, and the generated pattern will also continue getting longer. The game will be over once the player fails, and the score will be shown at the end. There are three difficulties (easy, medium, hard), and the scoring system depends on the chosen difficulty. Players are free to play again until they decide to quit the game. The scores are then stored in a separate text file.</p>
+              <!--clickable video demo-->
+              <h2><a href="videos/pythongame_demo.mp4" target="_blank">Watch Demo</a></h2>
+               <!--back  to top button-->
+               <a href="#home">BACK TO TOP</a>
+
+            </div>
+            
+            <!--java game container-->
+            <div class="featured-box box2">
+              <h1>JAVA GAME</h1>
+              <!--image sample-->
+              <img id="java_photo" src="images/javagame_img.png"/>
+              <!-- project description -->
+              <p class="desc">This Java project is called "Flario". It is inspired by Super Mario and Flappy Bird, and the gameplay is a combination of these two. There is a generated map with a finish line, and there are obstacles that deal damage to the player and power-ups along the way. The goal of the player is to overcome the obstacles and reach the finish line before the time runs out without dying.</p>
+              <!--clickable video demo-->
+              <h2><a href="videos/javagame_demo.mp4" target="_blank">Watch Demo</a></h2>
+               <!--back  to top button-->
+               <a href="#home">BACK TO TOP</a>
+            </div>
+
+            <!--r solver container-->
+            <div class="featured-box box3">
+              <h1>R SOLVER APP</h1>
+              <!--image sample-->
+              <img id="solverapp_photo" src="images/solverapp_img.png"/>
+              <!-- project description -->
+              <p class="desc">This R script project implements polynomial regression, quadratic spline interpolation, and simplex (minimization) with a user interface using shiny libraries. The user can use this app to solve problems regarding polynomial regression and quadratic spline interpolation. The user provides .csv files of x and y values and other numerical values as the input. It also serves as a diet problem solver wherein the user will choose food items, and from those, the program will provide the cheapest meal that satisfies some nutrient constraints.</p>
+              <!--clickable video demo-->
+              <h2><a href="videos/rsolver_demo.mp4" target="_blank">Watch Demo</a></h2>
+               <!--back  to top button-->
+               <a href="#home">BACK TO TOP</a>
+            </div>
+
+            <!--cake ordering form container-->
+            <div class="featured-box box4">
+              <h1>CAKE ORDERING FORM</h1>
+              <!--image sample-->
+              <img id="cakeorderingform_photo" src="images/cakeorderingform_img.png"/>
+              <!-- project description -->
+              <p class="desc">This webpage is a wedding cake ordering form made using HTML, CSS, and JavaScript where the user can specify different details regarding the cake, and some customer and delivery details. After submitting the form, the user will receive a prompt of the receipt containing the total price and previously specified details by the user.</p>
+              <!--clickable video demo-->
+              <h2><a href="videos/cakeorderingform_demo.mp4" target="_blank">Watch Demo</a></h2>
+              <!--back  to top button-->
+              <a href="#home">BACK TO TOP</a>
+            </div>
+
+          </div>
+        </div>
+          
+
+        <!--main container for skills and autobiography-->
+        <div class="content content3">
+          
+          <!--skills container-->
+          <div class="information skills" id="skill">
+            <h1>SKILLS</h1>
+            <!--container of list of skills-->
+            <p>Computer Literacy</p>
+            <p>Programming: C, Java, Python, R, HTML, CSS, JavaScript</p>
+            <p>Git</p>
+            <p>Graphic Design: Photoshop</p>
+            <p>Microsoft Office Specialist: Excel Associate</p>
+            <p>Word Processing</p>
+            <p>Video Editing (Sony Vegas)</p>
+         
+          </div>
+          
+          <!--autobiography container-->
+          <div class="information autobiography" id="auto">
+            <!--container of autobiography paragraphs-->
+            <h1>AUTOBIOGRAPHY</h1>
+            <p>My name is Michael Uriel D. Cariaso, a graduating BS Computer Science student from UP Los Baños. You can call me "Michael" or "Mike." I am 20 years old, and I was born on November 19, 2003. I am the youngest of three siblings, and I have two sisters. Both of my parents work for Philippine Star as reporters. </p>
+            <p>I have been interested in computers and technology since I was a child, and that led me to taking up BSCS. My hobbies are watching anime, playing online competitive games, and basketball. </p> 
+            <p>I have experience in HTML, CSS, and JavaScript, and I know the basics of Git. I would like to be a part of your team at Gugil Co. as a Frontend Software Engineer. I am a good follower and hardworking person, and I am confident that I can help the team create a lot of innovative projects. Being a part of your team will help me unleash my full potential and gain more experience in order to improve and prepare myself for the bright future ahead of me. </p>  
+              
+          </div>
+           
+        </div>
+
+       
+    </div>
+
+
+    <!--bottom part of webpage-->
+    <div class="flex-container bottom">
+        
+          
+          <div id="img">
+              <img id="logo2" src="images/apardium_logo.png"/>
+          </div>
+          
+          <!--footer information-->
+          <div>
+            <h2>Apardium, UPLB / mdcariaso@up.edu.ph, https://michaelcariaso.github.io/my-github-page-michaelcariaso</h2>
+            <h2>© 2024 Michael Uriel D. Cariaso. All Rights Reserved.</h2>
+            <!--back  to top button-->
+            <a href="#home">Back to Top</a>
+
+          </div>
+            
+       
+    
+    </div>
+   
+
+  </body>
+
+</html>

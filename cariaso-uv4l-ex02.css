@@ -1,0 +1,257 @@
+  /* CSS for Exercise 2 
+     Michael Uriel D. Cariaso
+     2022-12931
+     CMSC 100 UV-4L
+     Exercise 2
+  */
+
+
+ 
+
+
+  /*styling the three main containers (top, middle, bottom)*/
+.flex-container {
+    display: flex; /* Enables flexbox */
+    background-color: rgb(255, 183, 0); /* Background color of the flex container */
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: 20px;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+
+
+/*styling the top part of the webpage*/
+.top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/*styling the logos*/
+#logo_image, #logo2, #logo{
+    display: flex;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: rgb(255, 183, 0);
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    align-content: space-around;
+}
+
+
+
+
+
+
+
+/*styling the middle part of the webpage*/
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-content: space-around;
+    flex-grow: 1;
+    
+}
+
+/*styling the featured personal photo*/
+#featured_photo {
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
+    border-color: orange;
+    border-width: 10px;
+    border-style: solid;
+    padding: 20px;
+}
+
+/*styling the images of previous projects*/
+#python_photo, #java_photo, #solverapp_photo, #cakeorderingform_photo {
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+
+}
+
+/*styling the container of navigation buttons*/
+#navigation {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+/*styling each of the previous project containers*/
+.featured-box {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    flex-grow: 1;
+}
+
+/*styling the main containers of the contents of the middle part*/
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: orange;
+}
+
+/*styling the container of the featured personal photo*/
+.featured-item {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*styling the border of the featured personal photo*/
+.content1 {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+/*styling the border of the previous projects*/
+.content2 {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+/*styling the main container for skills and autobiography*/
+.content3 {
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    flex-wrap: wrap;
+}
+
+
+/*for skills and autobiography containers*/
+.information {
+    background-color:  rgb(255, 183, 0);
+    color: black;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    flex: 1;
+    padding: 20px;
+   
+   
+}
+
+
+
+/*styling the background color of the image for the featured personal photo*/
+#featured_photo {
+    background-color: rgb(255, 183, 0);
+}
+
+
+
+
+/*styling the flexbox of the previous projects*/
+#previous_projects {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+/*styling the description of each project*/
+.desc {
+    color: black;
+    padding: 20px;
+    text-align: justify;
+}
+
+/*styling the bottom part of the webpage*/
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*styling the clickable navigation references*/
+a {
+    border-color: orange;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    
+}
+
+/*changing the color when the navigation buttons are clicked*/
+a:hover {
+    color: white
+}
+
+/*changing the font and alignment for the paragraphs*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+
+/* Individual background colors for each flex item */
+.featured-box:nth-child(1) {background-color:  rgb(255, 183, 0);}
+.featured-box:nth-child(2) {background-color:  rgb(255, 183, 0);}
+.featured-box:nth-child(3) {background-color:  rgb(255, 183, 0);}
+.featured-box:nth-child(4) {background-color:  rgb(255, 183, 0);}
+
+
+
+/*background color of the outside of the webpage*/
+body {
+    background-color: gray;
+}
+
+/*align headers to center*/
+h1 {
+    text-align: center;
+}
+
+
